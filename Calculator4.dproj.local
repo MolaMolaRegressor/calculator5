@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.684,C:\Users\Iana\Desktop\del\CalculatorClass\Calculator.pas=C:\Users\Iana\Desktop\del\CalculatorClass\ClassCalculator.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.039,C:\Users\Iana\Desktop\del\CalculatorClass\Calculator.pas=C:\Users\Iana\Desktop\del\CalculatorClass\uCalculator.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.741,C:\Users\Iana\Desktop\del\CalculatorClass\Calculator.pas=C:\Users\Iana\Desktop\del\CalculatorClass\TCalculator.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.526,C:\Users\Iana\Desktop\del\CalculatorClass\TCalculator.pas=C:\Users\Iana\Desktop\del\CalculatorClass\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.699,C:\Users\Iana\Desktop\del\CalculatorClass\Calculator.dproj=C:\Users\Iana\Desktop\del\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.705,C:\Users\Iana\Desktop\del\CalculatorClass\Calculator3.dproj=C:\Users\Iana\Desktop\del\CalculatorClass\Calculator4.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.487,C:\Users\Iana\Desktop\del\CalculatorClass\Calculator1.dproj=C:\Users\Iana\Desktop\del\CalculatorClass\Calculator.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.779,C:\Users\Iana\Desktop\del\Calculator4-main (2)\Calculator4-main\uActions.pas=C:\Users\Iana\Desktop\del\Calculator4-main (2)\Calculator4-main\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.106,C:\Users\Iana\Desktop\del\CalculatorClass\MainFm.dfm=C:\Users\Iana\Desktop\del\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.875,C:\Users\Iana\Desktop\del\CalculatorClass\MainForm.pas=C:\Users\Iana\Desktop\del\CalculatorClass\MainFm.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.936,=C:\Users\Iana\Desktop\del\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.002,C:\Users\Iana\Desktop\del\CalculatorClass\ClassCalculator.pas=C:\Users\Iana\Desktop\del\CalculatorClass\Calculator.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.106,C:\Users\Iana\Desktop\del\CalculatorClass\MainFm.pas=C:\Users\Iana\Desktop\del\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.343,C:\Users\Iana\Desktop\del\CalculatorClass\ClassCalculator.dproj=C:\Users\Iana\Desktop\del\CalculatorClass\Calculator1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.802,C:\Users\Iana\Desktop\del\CalculatorClass\ClassCalculator.dproj=C:\Users\Iana\Desktop\del\CalculatorClass\Calculator3.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.633,C:\Users\Iana\Desktop\del\Calculator4-main (2)\Calculator4-main\uRecord.pas=C:\Users\Iana\Desktop\del\Calculator4-main (2)\Calculator4-main\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.681,=C:\Users\Iana\Desktop\del\CalculatorClass\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.875,C:\Users\Iana\Desktop\del\CalculatorClass\MainForm.dfm=C:\Users\Iana\Desktop\del\CalculatorClass\MainFm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.822,=C:\Users\Iana\Desktop\del\Calculator4-main (2)\Calculator4-main\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.068,=C:\Users\Iana\Desktop\del\Calculator4-main (2)\Calculator4-main\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
