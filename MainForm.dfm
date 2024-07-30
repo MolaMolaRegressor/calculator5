@@ -11,7 +11,7 @@ object MainFm: TMainFm
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
-  Position = poDesigned
+  Position = poMainFormCenter
   OnCreate = FormCreate
   TextHeight = 15
   object lblOutput: TLabel

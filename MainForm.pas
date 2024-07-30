@@ -94,6 +94,8 @@ begin
   begin
     numStr := '';
     I:= str.Length;
+    while lblOutput.Caption[I] = ')' do
+      I := I - 1;
     while (I > 0) and (ord(str[I]) > 47) and (ord(str[I]) < 58) do
     begin
       numStr:= str[I] + numStr;
@@ -112,7 +114,6 @@ begin
         action.prior := 1;
     end;
     vCalc.example.actions.Add(action);
-    //lblOutput.Caption := FloatToStr(vCalc.example.numbers[0]) + '78';
     lblOutput.Caption := lblOutput.Caption + (Sender as TButton).Caption;
   end;
 end;
@@ -135,17 +136,24 @@ begin
   else
   begin
     if (str = '0') then
-      lblOutput.Caption := '('
+    begin
+      vCalc.numberOpenBrackets := vCalc.numberOpenBrackets + 1;
+      lblOutput.Caption := '(';
+    end
     else
     begin
       while I > 1 do
       begin
         if lblOutput.Caption[I] = '(' then
         begin
-           if numBrackets > 0 then
+           if numBrackets > 1 then
             numBrackets := numBrackets - 1
            else
+           begin
+            numBrackets := numBrackets - 1;
             break;
+           end;
+            
         end;
         if lblOutput.Caption[I] in ['*','/','+','-'] then
         begin
@@ -161,7 +169,6 @@ begin
         vCalc.numberOpenBrackets := vCalc.numberOpenBrackets - 1;
         lblOutput.Caption := str + ')';
       end;
-            //lblOutput.Caption := IntToStr( vCalc.example.actions[IAct+1].prior)
     end;
   end;
 end;
@@ -170,6 +177,7 @@ procedure TMainFm.btnCClick(Sender: TObject);
 begin
    lblOutput.Caption := '0';
    lblHistory.Caption := '';
+   vCalc.numberOpenBrackets := 0;
 end;
 
 procedure TMainFm.btnDotClick(Sender: TObject);
@@ -217,7 +225,6 @@ begin
     end;
   vCalc.example.numbers.Add(StrToFloat(numStr));
   end;
-    
   lblHistory.Caption := str + ' =';
   lblOutput.Caption:= FloatToStr(vCalc.CalculateAll());
 end;
