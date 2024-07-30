@@ -96,7 +96,7 @@ begin
     I:= str.Length;
     while lblOutput.Caption[I] = ')' do
       I := I - 1;
-    while (I > 0) and (ord(str[I]) > 47) and (ord(str[I]) < 58) do
+    while (I > 0) and (((ord(str[I]) > 47) and (ord(str[I]) < 58)) or (str[I] = ','))do
     begin
       numStr:= str[I] + numStr;
       I:= I - 1;

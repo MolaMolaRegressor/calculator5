@@ -3,7 +3,7 @@ object MainFm: TMainFm
   Top = 0
   BorderStyle = bsDialog
   Caption = #1050#1072#1083#1100#1082#1091#1083#1103#1090#1086#1088
-  ClientHeight = 349
+  ClientHeight = 348
   ClientWidth = 265
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
