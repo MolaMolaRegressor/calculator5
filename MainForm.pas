@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
   Vcl.Graphics, System.Generics.Collections,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
-  uCalculator, uActions, uRecord;
+  uCalculator, uActions, uExample;
 
 type
   TMainFm = class(TForm)
@@ -235,7 +235,7 @@ end;
 
 procedure TMainFm.btnMReadClick(Sender: TObject);
 begin
-  lblOutput.Caption := FloatToStr(vCalc.memoryNum);
+  lblOutput.Caption := lblOutput.Caption + FloatToStr(vCalc.memoryNum);
 end;
 
 procedure TMainFm.btnMSClick(Sender: TObject);
